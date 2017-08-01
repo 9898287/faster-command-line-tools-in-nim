@@ -1,5 +1,5 @@
 echo "Python..."
-./repeat.rb python ./Python/csv_test.py ./ngrams.tsv 1 2
+./repeat.rb python2 ./Python/csv_test.py ./ngrams.tsv 1 2
 
 echo "\nD (DMD)..."
 ./repeat.rb ./D/csv_test ./ngrams.tsv 1 2
