@@ -23,9 +23,9 @@ def main():
 
     max_entry = sum_by_key.most_common(1);
     if len(max_entry) == 0:
-        print 'No entries'
+        print('No entries')
     else:
-        print 'max_key:', max_entry[0][0], 'sum:', max_entry[0][1]
+        print('max_key:', max_entry[0][0], 'sum:', max_entry[0][1])
 
 if __name__ == '__main__':
     main()
